@@ -1,0 +1,28 @@
+.container{
+    background-color: orange;
+    height: calc(100vh - 200px);
+    display: flex;
+   
+
+}
+
+#nav{
+    flex: 1;
+
+}
+
+#main{
+    flex: 3;
+    width: 100%;
+}
+
+/*Mobile*/
+
+@media (max-width:600px) {
+    .container{
+        flex-direction: column;
+       /* justify-content: center;*/
+    }
+
+    
+}

@@ -1,0 +1,21 @@
+.aside-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+   /* width: calc(100% - 5px);*/
+}
+
+.aside{
+    background-color: #FF007A;
+    width:100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    flex: 1;
+}

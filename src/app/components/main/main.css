@@ -1,0 +1,36 @@
+.main{
+    /*background-color: white;*/
+    width:100;
+    color: black;
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    gap: 5px;
+    height: calc(100% - 10px);
+    padding: 5px;
+
+
+}
+
+#article{
+    flex: 4;
+    height: 100%;
+    width: 100%
+}
+
+#aside-container{
+
+    flex: 1;
+    height: 100%;
+    width: 100%;
+
+}
+
+/* Tablettes */
+@media (max-width: 900px) {
+    .main{
+        flex-direction: column;
+    }
+}
